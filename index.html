@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Fandom</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/logos/personaresize.png" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Ver agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h3 class="persona">
+                PERSONA
+            </h3>
+            <p>
+                <a href="#" class="link-text">Ingmar Bergman</a>
+                <br>
+                <span class="text">
+                    18 de outubro de 1966
+                </span>
+            </p>
+            <p class="text--small">
+                Um dos filmes mais importantes da história do cinema
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Elenco
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Mais filmes do diretor
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Ingmar Bergman
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/bibi2.png" alt="Bibi">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/liv3.png" alt="Liv">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/Margaretha2.png" alt="Margaretha">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/Gunnar.png" alt="Gunnar">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/Jörgen.png" alt="Jörgen">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_filmes/SetimoSelo.png" alt="Setimo Selo">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_filmes/LuzDeInverno.png" alt="Luz De Inverno">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_filmes/MorangosSilvestres.png" alt="Morangos Silvestres">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_filmes/Vergonha.png" alt="Vergonha">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/Bergman/Bergman1.png" alt="Bergman1">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/Bergman/Bergman2.png" alt="Bergman2">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/Bergman/Bergman3.png" alt="Bergman3">
+            </li>
+        </ul>
+    </section>
+    
+    <section class="image-text-section">
+        <img class="sinopse" src="./dist/images/PersonaSinopse.png" alt="Persona Sinopse">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Sinopse</h2>
+            <p class="text--big">
+                Uma atriz teatral de sucesso sofre uma crise emocional e para de falar. Uma enfermeira é designada a cuidar dela em uma casa reclusa, perto da praia, onde as duas permanecem sozinhas. Para quebrar o silêncio, a enfermeira começa a falar incessantemente, narrando diversos episódios relevantes de sua vida, mas quando descobre que a atriz usa seus depoimentos como fonte de análise, a cumplicidade entre as duas se transforma em embate.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Crítica</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/IMDB.png" alt="IMdb">
+                <h6 class="title--small">IMDb</h6>
+                <ul class="text">
+                    <li class="footer__links__item">8,1/10</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/Rotten.png" alt="Rotten Tomatoes">
+                <h6 class="title--small">Rotten Tomatoes</h6>
+                <ul class="text">
+                    <li>91%</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/logos/personaresize.png" alt="Disney+">
+        <ul class="footer__links">
+            <li class="footer__links__item">
+                <div class="language-selector">
+                    <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                <select>
+                    <option>Engligh</option>
+                    <option selected>Português</option>
+                </select>
+                </div>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Política de privacidade</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Proteção de Dados no Brasil</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Anúncios pesonalizados</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Ajuda</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Sobre o Filme</a>
+            </li>
+        </ul>
+        <p class="text--small">
+            ® 2024 Persona Fandom, Ingmar Bergman. Todos os direitos reservados. 
+        </p>
+        <p class="text--small">
+            Fandom é um termo usado para se referir a uma subcultura composta por fãs caracterizados pela empatia e camaradagem por outros membros da comunidade que compartilham gostos em comum
+        </p>
+        </div>
+    </footer>
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
